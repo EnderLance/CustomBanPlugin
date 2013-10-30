@@ -1,0 +1,14 @@
+name: CustomBanPlugin
+author: EnderLance
+version: 0.1
+main: ca.enderlance.ban.Ban
+description: A custom banning plugin for Amestria.
+commands:
+  ban:
+    permission: ban.use
+    usage: /ban <player> <reason>
+    description: Prevent a specified player from logging into the server.
+  pardon:
+    permission: ban.pardon
+    usage: /pardon <player>
+    description: Allow a specified player to log into the server once again.
